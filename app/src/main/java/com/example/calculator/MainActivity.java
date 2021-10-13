@@ -73,14 +73,3 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.razdelit).setOnClickListener(ClickRazdelit);
     }
 }
-
-
-        /*View.OnClickListener buttonclick = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                CharSequence cs = editText.getText();
-                input_RPN = String.valueOf(cs);
-                culc.onClickStart(input_RPN);
-                text_output.setText(culc.getResult());
-            }
-        };*/
